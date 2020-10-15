@@ -18,8 +18,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rbraband521/course-directory-api-heroku/issues"
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "sequelize-cli": "^6.2.0"
   },
   "homepage": "https://github.com/rbraband521/course-directory-api-heroku#readme",
   "dependencies": {
@@ -31,7 +32,6 @@
     "express-validator": "^6.6.1",
     "morgan": "^1.10.0",
     "sequelize": "^6.3.5",
-    "sequelize-cli": "^6.2.0",
-    "sqlite3": "^5.0.0"
+    "sequelize-cli": "^6.2.0"
   }
 }
