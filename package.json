@@ -1,0 +1,30 @@
+{
+  "name": "course-directory-api-heroku",
+  "version": "1.0.0",
+  "description": "//trying a new approach",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "12.18.1",
+    "npm": "6.14.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbraband521/course-directory-api-heroku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbraband521/course-directory-api-heroku/issues"
+  },
+  "homepage": "https://github.com/rbraband521/course-directory-api-heroku#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  }
+}
