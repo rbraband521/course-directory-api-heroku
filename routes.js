@@ -1,4 +1,4 @@
-//change
+//TODO everything runs great so far so good. Need to write migrations, models and seeders
 'use strict';
 const express = require('express');
 const bcryptjs = require('bcryptjs');
