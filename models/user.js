@@ -12,7 +12,7 @@ module.exports = (sequelize, DataTypes) => {
     static associate({ Course }) {
       User.hasMany(Course, { 
         foreignKey: 'userId',
-        name: "userId"
+        as: "author"
       })
     }
   };
