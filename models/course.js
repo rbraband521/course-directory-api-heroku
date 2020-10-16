@@ -9,12 +9,12 @@ module.exports = (sequelize, DataTypes) => {
      * This method is not a part of Sequelize lifecycle.
      * The `models/index` file will call this method automatically.
      */
-    static associate({ User }) {
-      Course.belongsTo(User, { 
-        foreignKey: 'userId',
-        as: "author"
-      })
-    }
+    // static associate({ User }) {
+    //   Course.belongsTo(User, { 
+    //     foreignKey: 'userId',
+    //     as: "author"
+    //   })
+    // }
   };
   Course.init({
     title: DataTypes.STRING,
@@ -32,5 +32,10 @@ module.exports = (sequelize, DataTypes) => {
     sequelize,
     modelName: 'Course',
   });
+  Course.associate = function(models) {
+    Course.belongsTo(models.User, { 
+      foreignKey: 'userId'
+    })
+  }
   return Course;
 };
