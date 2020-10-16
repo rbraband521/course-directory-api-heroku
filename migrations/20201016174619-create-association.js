@@ -5,7 +5,7 @@ module.exports = {
     return queryInterface.addConstraint("Courses", {
         fields: ["userId"],
         type: "foreign key",
-        name: "userId",
+        as: "author",
         references: {
           table: "Users",
           field: "id"
