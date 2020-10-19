@@ -70,30 +70,11 @@ app.use((err, req, res, next) => {
     error: {},
   });
 });
-/** */
-// (function() {
-//   var cors_api_host = 'cors-anywhere.herokuapp.com';
-//   var cors_api_url = 'https://' + cors_api_host + '/';
-//   var slice = [].slice;
-//   var origin = window.location.protocol + '//' + window.location.host;
-//   var open = XMLHttpRequest.prototype.open;
-//   XMLHttpRequest.prototype.open = function() {
-//       var args = slice.call(arguments);
-//       var targetOrigin = /^https?:\/\/([^\/]+)/i.exec(args[1]);
-//       if (targetOrigin && targetOrigin[0].toLowerCase() !== origin &&
-//           targetOrigin[1] !== cors_api_host) {
-//           args[1] = cors_api_url + args[1];
-//       }
-//       return open.apply(this, args);
-//   };
-// })();
-/** */
+
 // set our port
 app.set('port', process.env.PORT || 5000);
 
-
-
-// // start listening on our port
+// start listening on our port
 const server = app.listen(app.get('port'), () => {
   console.log(`Express server is listening on port ${server.address().port}`);
 });
