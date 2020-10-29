@@ -4,7 +4,7 @@ This is the REST API for my Course Directory project. Once a user is authorized,
 
 **To Run Locally**
 
-If you'd like to run the program locally clone the full repo at <https://github.com/rbraband521/FullStackApp>.*This repo cannot be ran locally because there is no seed file.* 
+If you'd like to run the program locally clone the full repo at <https://github.com/rbraband521/FullStackApp>. *This repo cannot be ran locally because there is no seed file.* 
 
 **Online Database**
 
