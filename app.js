@@ -1,6 +1,6 @@
 'use strict';
 
-// load modules
+// load modules - modules
 const express = require('express');
 const morgan = require('morgan');
 const { sequelize } = require('./models');
